@@ -1,0 +1,13 @@
+# LLM and TTS Configuration
+# Copy this file to llm.yaml and adjust to your setup.
+
+# Ollama settings
+base_url: "http://localhost:11434"
+model: "gemma2:27b-instruct-q4_K_M"    # Any Ollama model
+temperature: 0.9
+max_tokens: 16384
+
+# TTS settings (only needed for audio generation)
+tts:
+  model: "tts_models/multilingual/multi-dataset/xtts_v2"
+  device: "cuda"  # "cuda" or "cpu"

@@ -1,0 +1,12 @@
+# LLM and TTS Configuration
+
+# Ollama settings
+base_url: "http://localhost:11434"
+model: "gemma2:27b-instruct-q4_K_M"
+temperature: 0.9
+max_tokens: 16384  # Much larger for longer outputs
+
+# TTS settings
+tts:
+  model: "tts_models/multilingual/multi-dataset/xtts_v2"
+  device: "cuda"  # "cuda" or "cpu"

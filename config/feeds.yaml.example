@@ -1,0 +1,36 @@
+# RSS Feeds Configuration
+# Copy this file to feeds.yaml and customize with your feeds.
+
+feeds:
+  # Tech News
+  - url: "https://simonwillison.net/atom/everything/"
+    name: "Simon Willison's Weblog"
+    category: "ai"
+
+  - url: "https://hnrss.org/newest?q=python"
+    name: "Hacker News - Python"
+    category: "programming"
+
+  - url: "https://hnrss.org/newest?q=typescript"
+    name: "Hacker News - TypeScript"
+    category: "programming"
+
+  # Official Blogs
+  - url: "https://nodejs.org/en/feed/blog.xml"
+    name: "Node.js Blog"
+    category: "programming"
+
+  - url: "https://devblogs.microsoft.com/typescript/feed/"
+    name: "TypeScript Blog"
+    category: "programming"
+
+  # Cloud
+  - url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
+    name: "AWS Recent Announcements"
+    category: "cloud"
+
+# Scraper settings
+scraper:
+  days_back: 7
+  max_workers: 5
+  scrape_full_articles: true
