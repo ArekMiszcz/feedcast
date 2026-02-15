@@ -12,7 +12,7 @@ RSS feeds ──► article scraper ──► LLM script writer ──► TTS en
 2. **Script** — sends articles to a local [Ollama](https://ollama.com/) model which generates a natural two-host dialogue covering the week's news.
 3. **Audio** *(work-in-progress)* — synthesizes each dialogue segment with text-to-speech (Coqui XTTS or Fish Speech) and concatenates them into a single audio file.
 
-> **⚠️ Note on TTS quality:** Audio generation is still **work-in-progress**. Current open-source TTS models (XTTS v2, Fish Speech) produce serviceable but noticeably synthetic output — especially for non-English languages. The script-generation pipeline is fully functional and is the primary focus of this project. TTS integration will improve as open models mature.
+> **⚠️ Note:** The primary focus of this project is feed aggregation and web scraping to gather rich article content. Script generation and podcast audio are a natural follow-up but are still **work-in-progress**. Current open-source TTS models (XTTS v2, Fish Speech) produce serviceable but noticeably synthetic output — especially for non-English languages. Both the script-generation pipeline and TTS integration will improve as open models mature.
 
 ## Features
 
