@@ -1,3 +1,11 @@
+# ==================== Config (use .example files as templates) ====================
+config/feeds.yaml
+config/llm.yaml
+config/podcast.yaml
+
+# ==================== Logs ====================
+*.log
+
 # ==================== Generated Output ====================
 output/articles/*.json
 output/podcasts/*.json
