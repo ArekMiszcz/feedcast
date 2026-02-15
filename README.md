@@ -14,6 +14,8 @@ RSS feeds ──► article scraper ──► LLM script writer ──► TTS en
 
 > **⚠️ Note:** The primary focus of this project is feed aggregation and web scraping to gather rich article content. Script generation and podcast audio are a natural follow-up but are still **work-in-progress**. Current open-source TTS models (XTTS v2, Fish Speech) produce serviceable but noticeably synthetic output — especially for non-English languages. Both the script-generation pipeline and TTS integration will improve as open models mature.
 
+> **💡 Tip:** In the meantime, you can upload the scraped article summaries (from `output/articles/`) into [Google NotebookLM](https://notebooklm.google.com/) and let it generate a podcast for you — it produces surprisingly natural audio and is a great way to consume your aggregated content right now.
+
 ## Features
 
 - Aggregate articles from any number of RSS/Atom feeds
